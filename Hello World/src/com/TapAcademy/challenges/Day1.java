@@ -3,12 +3,13 @@ package com.TapAcademy.challenges;
 import java.util.Scanner;
 
 public class Day1 {
-
+ 
 	public static void main(String[] args) {
 		Scanner a=new Scanner(System.in);
 		int n=a.nextInt(); 
 		System.out.println("input nunmber:"+n);
-		System.out.println(checkZero(n));
+		Day1 k=new Day1();
+		k.checkZero(n);
 	}
    public static String checkZero  (int a) {
 	   
